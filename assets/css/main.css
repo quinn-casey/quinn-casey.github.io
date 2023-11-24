@@ -1515,13 +1515,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: #1c5e1a; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(245, 106, 106, 0.15); }
+    background-color: #1c5e1a; }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
