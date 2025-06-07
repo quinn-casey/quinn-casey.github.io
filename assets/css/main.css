@@ -998,7 +998,7 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 3px #f56a6a;
+  border-bottom: solid 3px #1c5e1a;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
@@ -1243,6 +1243,15 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
+  .right {
+        float: right;
+        margin-left: 15px; /* space between image and text */
+        margin-bottom: 15px; /* some bottom spacing */
+        width: 200px; /* keep image width */
+        height: auto;
+        position: static; /* remove fixed */
+        transform: none; /* remove transform */
+      }
 
 a.image {
   overflow: hidden; }
@@ -2075,7 +2084,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #f56a6a;
+  border-bottom: solid 5px #1c5e1a;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
